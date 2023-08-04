@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+/* text */
+h1 {
+    color: #A2A6A1;
+    font-weight: 600;
+    text-align: center;
+}
+h2 {
+    color: #F2F2F2;
+    font-weight: 300;
+    font-size: 1.1rem;
+    text-align: center;
+}
+.price {
+    color: #F2F2F2;
+    text-align: center;
+    font-size: 1.5rem;
+}
+p {
+    color: #3F403E;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+/* ------------------------ */
+body {
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+section {
+    background-color: #20261A;
+    width: 25rem;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    border: 2px #A2A6A1 solid;
+    border-radius: 10px;
+}
+.product-img {
+    display: flex;
+    justify-content: center;
+}
+.product-img img {
+    width: 15rem;
+    height: 17rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+}
+.product-form {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+button {
+    background-color: #A2A6A1;
+    color: black;
+    border-radius: 0.8rem;
+    border: 2px black solid;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 2rem;
+    transition: background-color 400ms ease-out;
+}
+button:hover {
+    background-color: white;
+}
+.product-total {
+    background-color: white;
+    padding-top: 15rem;
+    padding-left: 3rem;
+    padding-right: 5rem;
+}
+.color-final {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+.color-circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #020202;
+    background-color: #fff;
+    margin-bottom: 0.7rem;
+}
